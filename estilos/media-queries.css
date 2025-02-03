@@ -81,7 +81,7 @@
 }
 
 /* TABLET */
-@media screen and (max-width: 1123px) {
+@media screen and (min-width: 1025px) and (max-width: 890px) {
   header > nav {
     padding: 40px;
     display: flex;
