@@ -81,7 +81,7 @@
 }
 
 /* TABLET */
-@media screen and (min-width: 1025px) and (max-width: 890px) {
+@media screen and (min-width: 1123px) and (max-width: 890px) {
   header > nav {
     padding: 40px;
     display: flex;
@@ -94,7 +94,7 @@
     font-size: 24px;
     color: #ffd000;
     text-decoration: none;
-    flex-basis: auto;
+    flex-basis: 300px;
     padding: 12px 20px;
   }
 
@@ -193,6 +193,7 @@
     flex-flow: column wrap;
     justify-content: center;
   }
+
   /* burguer */
   header > span#burguer {
     font-family: "Montserrat", serif;
@@ -203,6 +204,7 @@
     background-color: #01042f;
     box-shadow: 0px 2px 11px 10px #0000008a;
     padding: 40px;
+    width: 100%;
     display: block;
     transition: 0.4s;
   }
@@ -222,6 +224,7 @@
   }
 
   header > nav > a {
+    width: 100%;
     border-radius: 0px;
     border: 1px solid #ffd00070;
     font-size: 24px;
@@ -238,23 +241,24 @@
   }
 
   main > section.tittles h1 {
-    padding-top: 90px;
+    padding-top: 40px;
     padding-bottom: 50px;
     margin: auto;
     font-size: 50px;
-    width: 600px;
+    width: 400px;
     text-align: center;
   }
   main > section.tittles h2 {
     margin: auto;
     font-size: 23px;
     text-align: center;
-    /* width: 400px; */
+    width: 400px;
   }
   main > section.tittles > span#btnScolpe {
     margin-top: 50px;
+    padding: 50px;
     justify-content: center;
-    border-radius: 12px;
+    border-radius: 50px;
     box-shadow: inset 0px 0px 0px 5px orange;
   }
   span#btn {
@@ -269,6 +273,7 @@
     padding-top: 30px;
   }
   div.imgcontainer > img {
+    width: 300px;
   }
   div.imgcontainer > ul > li {
     display: inline-block;

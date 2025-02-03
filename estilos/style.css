@@ -16,8 +16,8 @@
   font-style: normal;
 }*/
 
-body {
-  background-image: linear-gradient(to right, #000633, #0f24bf);
+html body {
+  background-image: linear-gradient(to right, #051272, #101010);
   width: 100%;
   height: 100vh;
 }
@@ -25,7 +25,7 @@ body {
 main {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 main > section.tittles > h1 {
@@ -66,18 +66,16 @@ main > section.tittles > h2:hover {
 
 /*CONTAINER NAV   */
 
-header > nav {
-  /* background-color: red; */
+header {
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
-  padding: 30px 20px;
-  /* background-color: ; */
-  box-shadow: 9px 5px 0px #00000029;
-  margin-bottom: 80px;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 10px;
 }
 
 header > nav > a {
+  margin-right: 4px;
   padding: 32px 85px;
   border-radius: 70px;
   text-align: center;
@@ -110,7 +108,9 @@ span#btnScolpe {
   transition: 0.5s;
   box-shadow: inset 15px -1px 0px 5px orange;
 }
-
+header > span#burguer {
+  display: none;
+}
 span#btn {
   margin-bottom: 80px;
   color: rgba(0, 0, 0, 0.774);
