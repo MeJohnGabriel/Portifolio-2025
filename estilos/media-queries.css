@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-flow: row nowrap;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
   }
 
   header > nav > a {
@@ -15,11 +15,11 @@
     text-decoration: none;
     flex-basis: auto;
     padding: 12px 20px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
   }
   main {
     display: flex;
-    flex-flow: row-reverse nowrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
     /* background-color: beige; */
   }
