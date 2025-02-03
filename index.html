@@ -5,20 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifólio 2025</title>
     <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/media-queries.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=download"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"
     />
   </head>
-  <body>
-    <header>
-      <nav>
+  <body id="window" onresize="changedSize()">
+    <header id="menu">
+      <span id="burguer" onclick="clickedMenu()">Menu</span>
+      <nav id="itens">
         <a href="#">My skills</a>
         <a href="#">Projetos</a>
         <a href="#">Fale comigo</a>
@@ -32,32 +39,40 @@
         <span id="btnScolpe"> Download CV </span>
         <span id="btn"><a href="#">&downarrow;</a></span>
       </section>
-
       <div class="imgcontainer">
-        <img src="images/portifolio.png" alt="profile picture" />
-        <div class="listcontainer">
-          <ul>
-            <li>
-              <a href="#"
-                ><img class="social-linkedin" src="images/linkedin.png" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img
-                  class="social-instagram"
-                  src="images/instagram.png"
-                  alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#">
-                <img class="social-github" src="images/github.png" alt=""
-              /></a>
-            </li>
-          </ul>
-        </div>
+        <img
+          id="smile"
+          onclick="photoReplacement()"
+          src="images/porttes1.png"
+          alt="profile picture"
+        />
+        <img
+          class="me"
+          id="biggerSmile"
+          onmouseleave="photoReplacement2()"
+          style="display: none"
+          src="images/portifolio_pic_png-removebg-preview_LE_upscale_balanced_x4 withier-fotor-bg-remover-2025020117342.png"
+          alt="bigger smile"
+        />
+        <ul>
+          <li>
+            <a href="#"
+              ><img class="social-linkedin" src="images/linkedin.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img class="social-instagram" src="images/instagram.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="social-github" src="images/github.png" alt=""
+            /></a>
+          </li>
+        </ul>
       </div>
     </main>
+    <script src="port.js"></script>
   </body>
 </html>
