@@ -195,6 +195,9 @@
   }
 
   /* burguer */
+  header {
+    margin-top: 0px;
+  }
   header > span#burguer {
     font-family: "Montserrat", serif;
     color: #ffd000;
@@ -244,19 +247,19 @@
     padding-top: 40px;
     padding-bottom: 50px;
     margin: auto;
-    font-size: 50px;
-    width: 400px;
+    font-size: 40px;
+    width: 350px;
     text-align: center;
   }
   main > section.tittles h2 {
     margin: auto;
-    font-size: 23px;
+    font-size: 18px;
     text-align: center;
-    width: 400px;
+    width: 350px;
   }
   main > section.tittles > span#btnScolpe {
     margin-top: 50px;
-    padding: 50px;
+    padding: 40px;
     justify-content: center;
     border-radius: 50px;
     box-shadow: inset 0px 0px 0px 5px orange;
@@ -273,13 +276,13 @@
     padding-top: 30px;
   }
   div.imgcontainer > img {
-    width: 300px;
+    width: 280px;
   }
   div.imgcontainer > ul > li {
     display: inline-block;
     margin-top: 25px;
   }
   ul img {
-    width: 75px;
+    width: 55px;
   }
 }
