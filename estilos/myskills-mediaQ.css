@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 890px) {
+  header > span#burguer {
+    font-family: "Montserrat", serif;
+    color: #ffd000;
+    text-align: center;
+    border: 1px solid #ffd000;
+    border-radius: 0px 0px 22px 22px;
+    background-color: #01042f;
+    box-shadow: 0px 2px 11px 10px #0000008a;
+    padding: 40px;
+    width: 100vw;
+    display: block;
+    transition: 0.4s;
+  }
+
+  header > span#burguer:hover {
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: #030963;
+  }
+  header > nav {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 40px;
+  }
+
+  header > nav > a {
+    width: 100%;
+    border-radius: 0px;
+    border: 1px solid #ffd00070;
+    font-size: 24px;
+    color: #ffd000;
+    text-decoration: none;
+    padding: 40px;
+  }
+}
