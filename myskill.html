@@ -22,21 +22,114 @@
       </nav>
     </header>
     <main>
-      <section class="menuAbilities" id="menuAbilities">
-        <div class="soft-skills">
-          <img src="images/htmlicon.png" alt="soft-skills" />Soft-skills
-          <hr />
-        </div>
-        <div class="html">
-          <img src="" alt="html" />HTML5
-          <hr />
-        </div>
-        <div class="css">
-          <img src="" alt="css" />CSS3
-          <hr />
-        </div>
+      <section class="container">
+        <section class="menuAbilities" id="menuAbilities">
+          <div class="soft-skills" id="SoftSkills" onclick="showItem(this.id)">
+            <img
+              src="images/icones-myskills/creative-thinking.png"
+              alt="soft-skills"
+            />
+            Soft-skills
+            <hr />
+          </div>
+          <div class="html" id="html" onclick="showItem(this.id)">
+            <img src="images/icones-myskills/html-5.png" alt="html" /> HTML5
+            <hr />
+          </div>
+          <div class="css" id="css" onclick="showItem(this.id)">
+            <img src="images/icones-myskills/css-3.png" alt="css" /> CSS3
+            <hr />
+          </div>
+          <div class="javascript" id="javaScript" onclick="showItem(this.id)">
+            <img
+              src="images/icones-myskills/java-script.png"
+              alt="javascript"
+            />
+            JavaScript
+            <hr />
+          </div>
+          <div class="git" id="git" onclick="showItem(this.id)">
+            <img src="images/icones-myskills/git.png" alt="git" /> Git
+            <hr />
+          </div>
+        </section>
+        <section class="showAbilities" id="showAbilities">
+          <div id="showSoftSkills" style="display: block">
+            <h1>
+              <img
+                class="imgSoftSkills"
+                src="images/icones-myskills/creative-thinking.png"
+                alt="soft-skills"
+              />SOFT-SKILLS
+            </h1>
+            <p>
+              Sou uma pessoa comunicativa e proativa, gosto de trabalhar em
+              equipe e encontrar soluções práticas para os desafios do dia a
+              dia, aspirando novas formas de melhorar processos e tornar o
+              trabalho mais eficiente.
+            </p>
+            <ul>
+              <li>Comunicativo</li>
+              <li>Solucões Eficientes</li>
+              <li>Criatividade</li>
+              <li>Proatividade</li>
+            </ul>
+          </div>
+          <div id="showHtml" style="display: none">
+            <h1>
+              <img src="images/icones-myskills/html-5.png" alt="" />
+              HTML5
+              <hr />
+            </h1>
+            <h2>HTML5 – Fundamentos e Desenvolvimento Web</h2>
+            <p>
+              Conhecimento em estruturação de páginas web, semântica,
+              acessibilidade e boas práticas de desenvolvimento.
+            </p>
+            <ul>
+              <li>CURSO DE HTML5 E CSS3 - CURSO EM VÍDEO [200 HORAS]</li>
+            </ul>
+          </div>
+          <div id="showCss" style="display: none">
+            <h1><img src="images/icones-myskills/css-3.png" alt="" /> CSS3</h1>
+            <h2>CSS: Estilizando a Web com Criatividade e Flexibilidade</h2>
+            <p>
+              CSS é a linguagem que define o estilo e o layout das páginas da
+              web, permitindo personalizar cores, fontes, espaçamentos e criar
+              designs responsivos.
+            </p>
+            <ul>
+              <li>CURSO DE HTML5 E CSS3 - CURSO EM VÍDEO [200 HORAS]</li>
+            </ul>
+          </div>
+          <div id="showJavascript" style="display: none">
+            <h1>
+              <img src="images/icones-myskills/java-script.png" alt="" />
+              JavaScript
+            </h1>
+            <h2>Tornando a Web Interativa e Dinâmica</h2>
+            <p>
+              Linguagem de programação que adiciona interatividade e dinamismo
+              às páginas da web, permite manipular elementos e desenvolver
+              aplicações.
+            </p>
+            <ul>
+              <li>The Complete JavaScript Course 2025: From Zero to Expert!</li>
+            </ul>
+          </div>
+          <div id="showGit" style="display: none">
+            <h1><img src="images/icones-myskills/git.png" alt="" /> Git</h1>
+            <h2>Controle de Versionamento do código</h2>
+            <p>
+              Git é um sistema de controle de versão, permite gerenciar e
+              acompanhar as alterações no código-fonte ao longo do tempo.
+            </p>
+            <ul>
+              <li>CURSO DE GIT - CURSO EM VÍDEO [20 HORAS]</li>
+            </ul>
+          </div>
+        </section>
       </section>
-      <section class="showAbilities" id="showAbilities"></section>
       <script src="port.js"></script>
     </main>
   </body>

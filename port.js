@@ -1,5 +1,5 @@
 "use strict";
-
+//FUNCTION P/ REDUCAO DE TELA APARECER O HAMBURGUER
 function photoReplacement() {
   smile.style.display = "none";
   biggerSmile.style.display = "inline";
@@ -11,7 +11,6 @@ function photoReplacement2() {
 
 function changedSize() {
   if (window.innerWidth >= 890) {
-    console.log("A tela e maior que 890px ");
     itens.style.display = "flex";
   } else {
     itens.style.display = "none";
@@ -25,3 +24,55 @@ function clickedMenu() {
     itens.style.display = "flex";
   }
 }
+
+//PARA TROCA DINAMICA DO ITEM SELECIONADO
+
+function showItem(id) {
+  if (id === "SoftSkills") {
+    //ELE APARECE
+    showSoftSkills.style.display = "block";
+    //OUTROS SOMEM
+    showHtml.style.display = "none";
+    showCss.style.display = "none";
+    showJavascript.style.display = "none";
+    showGit.style.display = " none ";
+  } else if (id === "html") {
+    //ELE APARECE
+    showHtml.style.display = " block ";
+    //OUTROS SOMEM
+    showSoftSkills.style.display = "none";
+    showCss.style.display = "none";
+    showJavascript.style.display = "none";
+    showGit.style.display = " none ";
+  } else if (id === "css") {
+    //ELE APARECE
+    showCss.style.display = " block ";
+    //OUTROS SOMEM
+    showHtml.style.display = "none";
+    showSoftSkills.style.display = "none";
+    showJavascript.style.display = "none";
+    showGit.style.display = " none ";
+  } else if (id === "javaScript") {
+    //ELE APARECE
+    showJavascript.style.display = "block";
+    //OUTROS SOMEM
+    showCss.style.display = "none";
+    showHtml.style.display = "none";
+    showSoftSkills.style.display = "none";
+    showGit.style.display = " none ";
+  } else if (id === "git") {
+    //ELE APARECE
+    showGit.style.display = "block";
+    //OUTROS SOMEM
+    showCss.style.display = "none";
+    showHtml.style.display = "none";
+    showSoftSkills.style.display = "none";
+    showJavascript.style.display = "none";
+  }
+}
+
+/* showGit.style.display = " none ";
+ showCss.style.display = "none";
+ showHtml.style.display = "none";
+ showSoftSkills.style.display = "none";
+ showJavascript.style.display = "none";*/
