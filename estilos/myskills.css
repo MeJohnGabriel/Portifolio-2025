@@ -11,7 +11,7 @@ body,
 html {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(to right, #051272 70%, #1573d1);
+  background-image: linear-gradient(to right, #051272 40%, #1573d1);
 }
 
 header {
@@ -69,10 +69,31 @@ section.container {
 
 section.container > section.menuAbilities {
   color: white;
-  font-size: 1.4em;
+  font-size: 1em;
+}
+section.container > section.menuAbilities > div {
+  font-weight: 600;
+  text-shadow: 1px 2px black;
+  transition: 0.4s;
+}
+section.container > section.menuAbilities > div:hover {
+  font-weight: bold;
+  text-shadow: 1px 2px black;
+  text-shadow: -3px 4px 2px #000000ad;
+  cursor: pointer;
+  transform: translate(-4px, -4px);
+}
+section.container > section.menuAbilities > div > img {
+  width: 60px;
+  padding: 2px;
+  transition: 0.4s;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 section.container > section.menuAbilities > div > img:hover {
   cursor: pointer;
+  transform: translate(-4px, -4px);
+  box-shadow: 0px 0px 7px 2px white;
 }
 
 section.container > section.menuAbilities > div {
@@ -84,22 +105,19 @@ section.container > section.menuAbilities > div > hr {
   margin-top: 5px;
 }
 
-section.container > section.menuAbilities > div > img {
-  width: 50px;
-}
-
 section.container > section.showAbilities {
   background-color: white;
-  width: 450px;
-  height: 500px;
-  border-radius: 0px 50px 50px 0px;
-  /* box-shadow: 1px 1px 20px 6px #ffeb3b; */
-  /* border: 11px solid #ffd000; */
+  width: 500px;
+  height: 530px;
+  border-radius: 50px 50px 50px 0px;
+  box-shadow: 1px 1px 20px 6px #f2c23d;
+  transition: 0.4s;
 }
-
-section.showAbilities > div#showSoftSkills {
-  text-align: left;
-  padding: 50px;
+section.container > section.showAbilities:hover {
+  /* width: 480px;
+  height: 520px; */
+  transform: translate(-8px, -8px);
+  box-shadow: 0px -1px 20px 10px #f2c23d;
 }
 
 section.showAbilities > div#showSoftSkills > h1 {
@@ -132,6 +150,30 @@ section.showAbilities > div#showSoftSkills > ul > li {
   border: 1px solid #ffd000;
   border-radius: 12px;
   padding: 5px;
+  transition: 0.4s;
+}
+section.showAbilities > div#showSoftSkills > ul > li.comunicativo:hover {
+  background-color: #f5c84c;
+  cursor: pointer;
+  color: white;
+}
+section.showAbilities > div#showSoftSkills > ul > li.soluções:hover {
+  background-color: #fc657e;
+  cursor: pointer;
+  border-color: #fc657e;
+  color: white;
+}
+section.showAbilities > div#showSoftSkills > ul > li.criatividade:hover {
+  background-color: #87d147;
+  cursor: pointer;
+  border-color: #87d147;
+  color: white;
+}
+section.showAbilities > div#showSoftSkills > ul > li.proatividade:hover {
+  background-color: #70d6f9;
+  cursor: pointer;
+  color: white;
+  border-color: #70d6f9;
 }
 
 /* section.showAbilities [config geral] */
@@ -175,7 +217,14 @@ section.showAbilities > div#showHtml > ul > li {
   margin-left: 10px;
   font-size: 1.2em;
   width: 100%;
+  transition: 0.4s;
 }
+section.showAbilities > div#showHtml > ul > li:hover {
+  background-color: #ff694b;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 section.showAbilities > div#showCss > ul > li {
   border: 1px solid #6eaadc;
   border-radius: 8px;
@@ -184,6 +233,12 @@ section.showAbilities > div#showCss > ul > li {
   margin-left: 10px;
   font-size: 1.2em;
   width: 100%;
+  transition: 0.4s;
+}
+section.showAbilities > div#showCss > ul > li:hover {
+  background-color: #6eaadc;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 section.showAbilities > div#showJavascript > ul > li {
@@ -194,7 +249,14 @@ section.showAbilities > div#showJavascript > ul > li {
   margin-left: 10px;
   font-size: 1.2em;
   width: 100%;
+  transition: 0.4s;
 }
+section.showAbilities > div#showJavascript > ul > li:hover {
+  background-color: #eeaf4b;
+  color: white;
+  cursor: pointer;
+}
+
 section.showAbilities > div#showGit > ul > li {
   border: 1px solid #cc4342;
   border-radius: 8px;
@@ -202,5 +264,12 @@ section.showAbilities > div#showGit > ul > li {
   text-align: justify;
   margin-left: 10px;
   font-size: 1.2em;
+  transition: 0.4s;
   width: 100%;
+}
+section.showAbilities > div#showGit > ul > li:hover {
+  background-color: #cc4342;
+  transition: 0.4s;
+  color: white;
+  cursor: pointer;
 }
