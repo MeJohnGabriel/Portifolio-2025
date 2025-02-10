@@ -36,7 +36,36 @@
     color: #ffd000;
     text-decoration: none;
     padding: 30px 100px;
+    width: 100%;
   }
+
+  header > nav span.material-symbols-outlined {
+    /* background-color: #87d147; */
+    color: #ffd000;
+    cursor: pointer;
+    font-size: 17px;
+    border: 0px solid orange;
+    padding: 30px;
+    width: 100%;
+    border-radius: 0px;
+    transition: 0.4s;
+  }
+  header > nav span.material-symbols-outlined:hover {
+    background-color: #ffd000;
+    color: #051272;
+    box-shadow: -1px -1px 13px 9px rgba(255, 230, 0, 0.554);
+    width: 100%;
+  }
+  header > nav > a.home {
+    padding: 12px;
+    padding: 0;
+    box-shadow: -1px -1px 13px 9px rgba(255, 255, 255, 0);
+  }
+  header > nav > a.home:hover {
+    background-color: #03419100;
+    box-shadow: -1px -1px 13px 9px rgba(255, 255, 255, 0);
+  }
+
   section.container {
     display: flex;
     flex-flow: row nowrap;

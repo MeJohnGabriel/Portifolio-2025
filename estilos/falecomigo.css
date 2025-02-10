@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+}
+
+body,
+html {
+  background-image: linear-gradient(to right, #004aad, #001944);
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header > nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 65px;
+}
+
+header > nav a {
+  align-self: center;
+  margin-right: 4px;
+  padding: 32px 75px;
+  border-radius: 70px;
+  text-align: center;
+  text-decoration: underline;
+  color: #ffd000;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-family: "Montserrat", serif;
+  font-size: 17px;
+  transition: 0.5s;
+  /* transform: translate(-3px, -3px); */
+}
+
+header > nav a.myskills {
+  background-color: #ffd000;
+  color: #034191;
+  font-weight: bold;
+  box-shadow: -1px -1px 20px 2px rgba(255, 230, 0, 0.554);
+}
+
+header > nav span.material-symbols-outlined {
+  /* background-color: #87d147; */
+  color: #ffd000;
+  cursor: pointer;
+  font-size: 17px;
+  border: 1px solid orange;
+  padding: 30px;
+  border-radius: 70px;
+  transition: 0.4s;
+}
+header > nav span.material-symbols-outlined:hover {
+  background-color: #ffd000;
+  color: #051272;
+  box-shadow: -1px -1px 13px 9px rgba(255, 230, 0, 0.554);
+}
+header > nav a.home {
+  padding: 12px;
+  box-shadow: -1px -1px 13px 9px rgba(255, 255, 255, 0);
+}
+header > nav > a.home:hover {
+  background-color: #03419100;
+  box-shadow: -1px -1px 13px 9px rgba(255, 255, 255, 0);
+}
+
+header > nav > a:hover {
+  background-color: #ffd000;
+  color: #034191;
+  font-weight: bold;
+  box-shadow: -1px -1px 13px 9px rgba(255, 230, 0, 0.554);
+}
+
+header > span#burguer {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+main > div > img.profile {
+  width: 300px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.81);
+  /* transition: 0.2s; */
+}
+
+main hr {
+  width: 30%;
+  margin-top: 32px;
+  border: 1px solid white;
+  transition: 0.2s;
+}
+
+menu > a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+menu > a > img {
+  width: 50px;
+  margin-right: 5px;
+  margin-top: 30px;
+  transition: 0.2s;
+}
+
+menu > a.instagram > img.insta {
+  transform: rotate(-15deg);
+}
+menu > a.instagram > img.insta:hover {
+  transform: rotate(0deg);
+}
+
+menu > a.linkedin > img.link {
+  transform: rotate(15deg);
+}
+menu > a.linkedin > img.link:hover {
+  transform: rotate(0deg);
+}
+
+menu > a.email > img.mail {
+  transform: rotate(-15deg);
+}
+
+menu > a.email > img.mail:hover {
+  transform: rotate(-0deg);
+}
+
+menu > a.facebook > img.face {
+  transform: rotate(15deg);
+}
+menu > a.facebook > img.face:hover {
+  transform: rotate(0deg);
+}
+
+section.container-screen {
+  margin-top: 50px;
+}
+
+div.email-screen,
+div.whatsapp-screen {
+  margin: 10px;
+  width: 600px;
+  padding: 30px;
+  background-color: #ffd00067;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+div.email-screen:hover,
+div.whatsapp-screen:hover {
+  background-color: #ffbf00;
+  font-size: 23px;
+}
