@@ -208,6 +208,7 @@ main > div.listcontainer {
 
 img.me {
   box-shadow: inset 2px 2px white;
+  background-color: rgb(236, 236, 236);
 }
 
 ul {

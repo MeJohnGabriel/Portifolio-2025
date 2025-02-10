@@ -10,7 +10,7 @@ function photoReplacement2() {
 }
 
 function changedSize() {
-  if (window.innerWidth >= 890) {
+  if (window.innerWidth >= 768) {
     itens.style.display = "flex";
   } else {
     itens.style.display = "none";
