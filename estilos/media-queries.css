@@ -298,7 +298,7 @@
   }
   main > section.tittles > span#btnScolpe {
     margin-top: 50px;
-    padding: 40px;
+    padding: 30px;
     justify-content: center;
     border-radius: 50px;
     box-shadow: inset 0px 0px 0px 5px orange;
@@ -316,13 +316,15 @@
     padding-top: 50px;
   }
   div.imgcontainer > img {
-    width: 320px;
+    width: 230px;
+    margin-bottom: 20px;
+    /* width: 100%; */
   }
   div.imgcontainer > ul > li {
     align-self: center;
     margin-top: 5px;
   }
   ul img {
-    width: 55px;
+    width: 40px;
   }
 }

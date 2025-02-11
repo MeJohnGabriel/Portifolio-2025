@@ -4,13 +4,15 @@
   header > nav > a {
     font-size: 20px;
     padding: 30px;
+
     /* margin-right: 20px; */
     text-align: center;
     /* margin: auto; */
   }
 
   h1.main-tittle {
-    width: 70vw;
+    width: 100vw;
+
     /* font-size: 3.1em; */
   }
   section.android-container {
@@ -116,6 +118,7 @@
 
 @media screen and (max-width: 768px) {
   /* nav */
+
   header {
     margin-top: 0px;
   }
@@ -160,7 +163,7 @@
     color: #ffd000;
     text-decoration: none;
     width: 100%;
-    padding: 30px 159px;
+    padding: 30px 95px;
   }
 
   header > nav span.material-symbols-outlined {
@@ -193,8 +196,10 @@
   }
 
   h1.main-tittle {
+    margin-top: 70px;
+    margin-bottom: 70px;
     width: 75vw;
-    font-size: 2.3em;
+    font-size: 2em;
     /* font-size: 3.1em; */
   }
   section.android-container {
@@ -203,7 +208,7 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
-    height: 650px;
+    height: 750px;
     padding: 10px;
   }
   div.android-content {
@@ -218,9 +223,10 @@
     font-size: 2em;
   }
   div.android-button > a {
-    padding: 30px 120px;
+    padding: 25px 90px;
     font-size: 20px;
   }
+
   div.android-button > a:hover {
     padding: 30px 120px;
     /* font-weight: bold; */
@@ -233,7 +239,7 @@
     flex-flow: column wrap;
     align-items: center;
     align-content: center;
-    height: 650px;
+    height: 750px;
     padding: 10px;
   }
   div.guess-content {
@@ -247,7 +253,7 @@
     width: 100%;
   }
   div.guess-button > a {
-    padding: 30px 120px;
+    padding: 25px 90px;
     font-size: 20px;
     /* margin-right: 60px; */
   }
@@ -263,7 +269,7 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
-    height: 650px;
+    height: 750px;
     padding: 10px;
   }
   div.login-content {
@@ -277,7 +283,7 @@
     font-size: 2em;
   }
   div.login-button > a {
-    padding: 30px 120px;
+    padding: 25px 90px;
     font-size: 20px;
     /* margin-left: 60px; */
   }
@@ -293,7 +299,7 @@
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    height: 600px;
+    height: 750px;
     padding: 10px;
   }
   div.social-content {
@@ -309,9 +315,9 @@
     width: 100%;
   }
   div.social-button > a {
-    padding: 30px 120px;
+    padding: 25px 90px;
     font-size: 20px;
-    margin-right: 60px;
+    /* margin-right: 60px; */
   }
   div.social-button > a:hover {
     padding: 30px 120px;
