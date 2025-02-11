@@ -299,21 +299,22 @@
   div.social-content {
     width: 100%;
   }
-}
-div.social-content > ul {
-  margin-left: 20px;
-}
 
-div.social-content > h1 {
-  font-size: 2em;
-  width: 100%;
-}
-div.social-button > a {
-  padding: 30px 120px;
-  font-size: 20px;
-  margin-right: 60px;
-}
-div.social-button > a:hover {
-  padding: 30px 120px;
-  /* font-weight: bold; */
+  div.social-content > ul {
+    margin-left: 20px;
+  }
+
+  div.social-content > h1 {
+    font-size: 2em;
+    width: 100%;
+  }
+  div.social-button > a {
+    padding: 30px 120px;
+    font-size: 20px;
+    margin-right: 60px;
+  }
+  div.social-button > a:hover {
+    padding: 30px 120px;
+    /* font-weight: bold; */
+  }
 }
