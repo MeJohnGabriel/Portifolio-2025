@@ -32,7 +32,7 @@
 /* CELULAR */
 @media screen and (max-width: 890px) {
   header {
-    margin-bottom: 40px;
+    margin-top: 0px;
   }
   header > span#burguer {
     font-family: "Montserrat", serif;
@@ -46,6 +46,7 @@
     width: 100vw;
     display: block;
     transition: 0.4s;
+    margin-bottom: 0;
   }
 
   header > span#burguer:hover {
@@ -57,30 +58,31 @@
   }
 
   header > nav {
+    padding-top: 3px;
     display: flex;
+    margin-top: 0;
     flex-flow: column wrap;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
-  hr {
-    display: none;
-  }
+
   header > nav > a {
+    margin-bottom: 0;
     border: 1px solid rgba(255, 166, 0, 0.364);
     border-radius: 0px;
     /* border: 1px solid #ffd00070; */
-    font-size: 20px;
-    width: 100%;
+    font-size: 17px;
+    text-align: center;
     color: #ffd000;
     text-decoration: none;
+    width: 100%;
+    padding: 30px 159px;
   }
 
   header > nav span.material-symbols-outlined {
-    border: 2px solid rgba(255, 166, 0, 0);
-    padding: 20px;
+    border: 6px solid rgba(0, 0, 0, 0);
   }
   header > nav span.material-symbols-outlined:hover {
     background-color: orange;
-    color: #01042f;
     box-shadow: none;
   }
   header > nav > a.home {

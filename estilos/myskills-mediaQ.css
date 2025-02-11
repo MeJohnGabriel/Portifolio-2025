@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 890px) {
+  header {
+    margin-top: 0px;
+  }
   header > span#burguer {
     font-family: "Montserrat", serif;
     color: #ffd000;
@@ -13,57 +16,65 @@
     width: 100vw;
     display: block;
     transition: 0.4s;
+    margin-bottom: 0;
   }
 
   header > span#burguer:hover {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
     text-decoration: underline;
     background-color: #030963;
   }
+
   header > nav {
+    padding-top: 3px;
     display: flex;
+    margin-top: 0;
     flex-flow: column wrap;
-    margin-bottom: 40px;
-    padding: 0px 10px;
+    margin-bottom: 10px;
   }
 
   header > nav > a {
+    margin-bottom: 0;
+    border: 1px solid rgba(255, 166, 0, 0.364);
     border-radius: 0px;
-    border: 1px solid #ffd00070;
-    font-size: 15px;
+    /* border: 1px solid #ffd00070; */
+    font-size: 17px;
+    text-align: center;
     color: #ffd000;
     text-decoration: none;
-    padding: 30px 100px;
     width: 100%;
+    padding: 30px 159px;
   }
 
   header > nav span.material-symbols-outlined {
-    /* background-color: #87d147; */
-    color: #ffd000;
-    cursor: pointer;
-    font-size: 17px;
-    border: 0px solid orange;
-    padding: 30px;
-    width: 100%;
-    border-radius: 0px;
-    transition: 0.4s;
+    border: 6px solid rgba(0, 0, 0, 0);
   }
   header > nav span.material-symbols-outlined:hover {
-    background-color: #ffd000;
-    color: #051272;
-    box-shadow: -1px -1px 13px 9px rgba(255, 230, 0, 0.554);
-    width: 100%;
+    background-color: orange;
+    box-shadow: none;
   }
   header > nav > a.home {
+    width: 100%;
+    border: 1px solid rgba(255, 166, 0, 0.332);
     padding: 12px;
-    padding: 0;
     box-shadow: -1px -1px 13px 9px rgba(255, 255, 255, 0);
   }
   header > nav > a.home:hover {
-    background-color: #03419100;
-    box-shadow: -1px -1px 13px 9px rgba(255, 255, 255, 0);
+    background-color: #ffd000;
+    color: #034191;
+    font-weight: bold;
+    box-shadow: -1px -1px 13px 9px rgba(255, 230, 0, 0.554);
+    /* background-color: #03419100;
+    box-shadow: -1px -1px 13px 9px rgba(255, 255, 255, 0); */
+  }
+
+  header > nav > a:hover {
+    background-color: #ffd000;
+    color: #034191;
+    font-weight: bold;
+    box-shadow: -1px -1px 13px 9px rgba(255, 230, 0, 0.554);
   }
 
   section.container {
