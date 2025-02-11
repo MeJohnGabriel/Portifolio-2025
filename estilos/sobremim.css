@@ -81,7 +81,7 @@ span#burguer {
 }
 
 main {
-  margin-top: 20px;
+  margin-top: 70px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;

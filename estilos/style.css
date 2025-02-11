@@ -26,6 +26,7 @@ main {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin-top: 70px;
 }
 
 main > section.tittles > h1 {
