@@ -231,6 +231,36 @@
     padding: 30px 120px;
     /* font-weight: bold; */
   }
+  /*pig-game  */
+  section.pig-container {
+    width: 100%;
+    /* align-self: flex-end; */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    height: 750px;
+    padding: 10px;
+  }
+  div.pig-content {
+    width: 100%;
+  }
+
+  div.pig-content > ul {
+    margin-left: 20px;
+  }
+
+  div.pig-content > h1 {
+    font-size: 2em;
+  }
+  div.pig-button > a {
+    padding: 25px 90px;
+    font-size: 20px;
+  }
+
+  div.pig-button > a:hover {
+    padding: 30px 120px;
+    /* font-weight: bold; */
+  }
   /* GUESS */
   section.guess-container {
     width: 100%;
