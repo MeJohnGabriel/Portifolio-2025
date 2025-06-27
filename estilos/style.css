@@ -267,3 +267,145 @@ ul img#instagram:hover {
 ul img#github:hover {
   background-color: #6d7dda;
 }
+/* SKILLS SECTION */
+
+section#bordersection {
+  padding: 10px;
+  border-radius: 10px;
+}
+h1#tec {
+  padding-top: 70px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 2.2em;
+}
+section.showAbilities {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-top: 20px;
+  border-radius: 30px;
+}
+
+section.showAbilities > div {
+  padding: 15px;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 1px 1px 20px 6px #f2c23d;
+  transition: 0.4s;
+}
+
+section.showAbilities > div > h1 {
+  margin-bottom: 32px;
+  font-size: 21px;
+}
+
+section.showAbilities > div > h1 > img {
+  text-align: left;
+  width: 35px;
+}
+section.showAbilities > div > h2 {
+  font-size: 16px;
+}
+section.showAbilities > div > p {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 10px;
+}
+section.showAbilities > div > ul {
+  text-align: left;
+  margin-left: 20px;
+}
+section.showAbilities > div > ul > li {
+  border-radius: 8px;
+  text-align: justify;
+  margin-left: 10px;
+  font-size: 12px;
+  transition: 0.4s;
+  width: 100%;
+  margin: 3px;
+}
+
+/* showAbilities container de cada */
+section.showAbilities > div#showSoftSkills > ul > li {
+  border: 1px solid #91ff00;
+}
+section.showAbilities > div#showSoftSkills > ul > li.comunicativo:hover {
+  background-color: #f5c84c;
+  cursor: pointer;
+  color: white;
+}
+section.showAbilities > div#showSoftSkills > ul > li.soluções:hover {
+  background-color: #fc657e;
+  cursor: pointer;
+  border-color: #fc657e;
+  color: white;
+}
+section.showAbilities > div#showSoftSkills > ul > li.criatividade:hover {
+  background-color: #87d147;
+  cursor: pointer;
+  border-color: #87d147;
+  color: white;
+}
+section.showAbilities > div#showSoftSkills > ul > li.proatividade:hover {
+  background-color: #70d6f9;
+  cursor: pointer;
+  color: white;
+  border-color: #70d6f9;
+}
+
+section.showAbilities > div#showHtml > ul {
+  text-align: left;
+}
+
+section.showAbilities > div#showHtml > ul > li {
+  border: 1px solid #ff694b;
+}
+section.showAbilities > div#showHtml > ul > li:hover {
+  background-color: #ff694b;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+section.showAbilities > div#showCss > ul > li {
+  border: 1px solid #6eaadc;
+}
+section.showAbilities > div#showCss > ul > li:hover {
+  background-color: #6eaadc;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+section.showAbilities > div#showJavascript > ul > li {
+  border: 1px solid #eeaf4b;
+}
+section.showAbilities > div#showJavascript > ul > li:hover {
+  background-color: #eeaf4b;
+  color: white;
+  cursor: pointer;
+}
+
+section.showAbilities > div#showGit > ul > li {
+  border: 1px solid #cc4342;
+}
+section.showAbilities > div#showGit > ul > li:hover {
+  background-color: #cc4342;
+  transition: 0.4s;
+  color: white;
+  cursor: pointer;
+}
+
+section.showAbilities > div#showSQL > ul > li {
+  border: 1px solid #02a9f4;
+}
+section.showAbilities > div#showSQL > ul > li:hover {
+  background-color: #02a9f4;
+  transition: 0.4s;
+  color: white;
+  cursor: pointer;
+}
