@@ -42,6 +42,59 @@ main > section.tittles > h1 {
   font-weight: 400;
   transition: 0.4s;
 }
+/* modal */
+.hidden {
+  display: none;
+}
+
+section#overall {
+  text-align: center;
+  margin-top: 350px;
+  position: absolute;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: #000316;
+  padding: 6rem;
+  border-radius: 35px;
+  box-shadow: 0px 1px 2rem 3px rgb(224 116 4 / 47%);
+  z-index: 10;
+  transition: 0.3s;
+}
+
+div.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4000px;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+section.text {
+  margin: auto;
+  color: white;
+  text-align: justify;
+}
+
+button.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  background-color: rgb(242, 248, 242);
+  border-radius: 50%;
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+}
+button.close-modal:hover {
+  cursor: pointer;
+  box-shadow: 0rem 0rem 7px 5px rgb(255 196 0 / 50%);
+}
 
 main > section.tittles > h2 {
   width: 550px;
@@ -56,6 +109,7 @@ main > section.tittles > h2 {
 }
 main > section.tittles h1:hover {
   font-weight: 600;
+  cursor: pointer;
   transform: translate(4px, -4px);
 
   text-shadow: -10px 8px 5px rgba(0, 0, 0, 0.626);
@@ -408,4 +462,27 @@ section.showAbilities > div#showSQL > ul > li:hover {
   transition: 0.4s;
   color: white;
   cursor: pointer;
+}
+
+footer.container-f {
+  background-color: #000316;
+  background-image: linear-gradient(to right, rgb(13, 13, 75), #000316);
+  background-image: radial-gradient(circle at center, rgb(13, 13, 75), #000316);
+  color: white;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  box-shadow: 1px 20px 20px 13px #ff9800de;
+}
+
+div.container-photo {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+div img.profile {
+  width: 120px;
+  border-radius: 50%;
+  background-color: orange;
+  margin-bottom: 20px;
 }

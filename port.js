@@ -1,4 +1,21 @@
 "use strict";
+const modal = document.querySelector(".modal");
+const h1El = document.getElementById("interactor");
+const btnEl = document.querySelector(".close-modal");
+const overlay = document.querySelector(".overlay");
+
+// abrir modal
+h1El.addEventListener("click", function () {
+  modal.classList.remove("hidden");
+  overlay.classList.remove("hidden");
+});
+
+// fechar modal
+btnEl.addEventListener("click", function () {
+  modal.classList.add("hidden");
+  overlay.classList.add("hidden");
+});
+
 //FUNCTION P/ REDUCAO DE TELA APARECER O HAMBURGUER
 function photoReplacement() {
   smile.style.display = "none";

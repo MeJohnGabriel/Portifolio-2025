@@ -9,7 +9,6 @@
 
 body,
 html {
-  background-image: linear-gradient(to right, #004aad, #001944);
   width: 100%;
   height: 100vh;
 }
@@ -87,26 +86,11 @@ header > span#burguer {
   display: none;
 }
 
-main {
-  display: flex;
-  flex-flow: column wrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-}
-
-main > div > img.profile {
+img.profile {
   width: 300px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.81);
   /* transition: 0.2s; */
-}
-
-main hr {
-  width: 30%;
-  margin-top: 32px;
-  border: 1px solid white;
-  transition: 0.2s;
 }
 
 menu > a {
@@ -150,25 +134,16 @@ menu > a.facebook > img.face:hover {
   transform: rotate(0deg);
 }
 
-section.container-screen {
-  margin-top: 50px;
-}
-
 div.email-screen,
 div.whatsapp-screen {
   margin: 10px;
-  width: 600px;
-  padding: 30px;
-  background-color: #ffd00067;
-  font-size: 20px;
+  width: 500px;
+  padding: 10px;
+  font-size: 1em;
+  border: 0.2px solid rgba(255, 166, 0, 0.432);
   color: white;
   font-weight: 600;
   text-align: center;
   border-radius: 50px;
   transition: 0.3s;
-}
-div.email-screen:hover,
-div.whatsapp-screen:hover {
-  background-color: #ffbf00;
-  font-size: 23px;
 }

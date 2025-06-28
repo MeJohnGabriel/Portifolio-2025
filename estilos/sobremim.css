@@ -6,10 +6,6 @@
   box-sizing: border-box;
   font-family: "Montserrat", serif;
 }
-html,
-body {
-  background-image: linear-gradient(to right, #051272 40%, #1573d1);
-}
 
 header {
   display: flex;
@@ -88,14 +84,6 @@ main {
   align-items: center;
 }
 
-section.text {
-  width: 40%;
-
-  color: white;
-  text-align: justify;
-  margin-left: 50px;
-}
-
 section.text h1 {
   font-weight: 500;
   font-size: 3em;
@@ -126,6 +114,6 @@ section p.p2 {
 section.image > img {
   border-radius: 50%;
   border: 5px solid #ffd000;
-  width: 470px;
+  width: 200px;
   background-color: rgb(224, 224, 224);
 }
