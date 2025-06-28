@@ -15,11 +15,6 @@ header {
   align-content: center;
 }
 
-header > nav {
-  padding: 50px;
-  margin-bottom: 10px;
-}
-
 span#burguer {
   display: none;
 }

@@ -25,8 +25,6 @@ header > nav {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
-  margin-bottom: 65px;
 }
 
 header > nav a {

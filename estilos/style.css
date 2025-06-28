@@ -27,7 +27,7 @@ main {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 200px;
 }
 
 main > section.tittles > h1 {
@@ -52,7 +52,7 @@ section#overall {
   margin-top: 350px;
   position: absolute;
   position: fixed;
-  top: 30%;
+  top: 12%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
@@ -61,7 +61,16 @@ section#overall {
   border-radius: 35px;
   box-shadow: 0px 1px 2rem 3px rgb(224 116 4 / 47%);
   z-index: 10;
-  transition: 0.3s;
+  /*  */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+section#overall.modal {
+  opacity: 1;
+  transform: translate(-50%, -50%) translateY(0); /* Volta à posição normal */
+  pointer-events: auto;
 }
 
 div.overlay {
@@ -127,11 +136,15 @@ header {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 70px;
 }
 
 header > nav {
-  margin-top: 50px;
-  margin-bottom: 65px;
+  background-color: #010c57;
+  box-shadow: -3px -1px 20px #0000009c;
+  position: fixed;
+  width: 100vw;
+  padding: 30px;
 }
 
 header > nav a {
@@ -259,7 +272,7 @@ div.imgcontainer > img:hover {
 
 main > div.listcontainer {
   /* background-color: aqua; */
-  margin-top: 160px;
+  margin-top: 200px;
 }
 
 img.me {
@@ -349,13 +362,22 @@ section.showAbilities > div {
   height: 200px;
   background-color: white;
   border-radius: 50px 50px 50px 50px;
-  box-shadow: 1px 1px 20px 6px #f2c23d;
+  box-shadow: 1px 1px 20px 6px #f2c23da7;
   transition: 0.4s;
 }
 
+section.showAbilities > div:hover {
+  box-shadow: 1px 1px 15px 9px #efb105;
+  transform: translate(5px, -5px);
+  transition: transform 0.3s;
+}
 section.showAbilities > div > h1 {
   margin-bottom: 32px;
   font-size: 21px;
+}
+
+section.showAbilities > div#showSoftSkills > h1 {
+  margin-bottom: 10px;
 }
 
 section.showAbilities > div > h1 > img {
@@ -373,13 +395,13 @@ section.showAbilities > div > p {
 }
 section.showAbilities > div > ul {
   text-align: left;
-  margin-left: 20px;
 }
 section.showAbilities > div > ul > li {
   border-radius: 8px;
   text-align: justify;
   margin-left: 10px;
   font-size: 12px;
+  padding: 3px;
   transition: 0.4s;
   width: 100%;
   margin: 3px;
@@ -387,7 +409,7 @@ section.showAbilities > div > ul > li {
 
 /* showAbilities container de cada */
 section.showAbilities > div#showSoftSkills > ul > li {
-  border: 1px solid #91ff00;
+  border: 1px solid #5c6551;
 }
 section.showAbilities > div#showSoftSkills > ul > li.comunicativo:hover {
   background-color: #f5c84c;

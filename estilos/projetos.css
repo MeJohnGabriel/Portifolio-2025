@@ -21,11 +21,6 @@ header {
   align-items: center;
 }
 
-header > nav {
-  margin-top: 50px;
-  margin-bottom: 65px;
-}
-
 header > nav a {
   align-self: center;
   margin-right: 4px;
